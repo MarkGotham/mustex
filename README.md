@@ -1,3 +1,9 @@
+![Version](https://img.shields.io/github/v/release/MarkGotham/mustex?display_name=tag)
+[![DOI](https://zenodo.org/badge/1054049858.svg)](https://doi.org/10.5281/zenodo.17092024)
+![GitHub repo size](https://img.shields.io/github/repo-size/MarkGotham/mustex)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+
 # mustex
 
 This `mustex` library is for 
