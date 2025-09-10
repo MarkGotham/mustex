@@ -1,0 +1,36 @@
+\begin{tikzpicture}[scale={3}]
+\def \radius{1.0}
+\node (origin) at (0,0) {};
+\draw (origin) circle (\radius);
+\node (n0) at +(90.0:\radius) [circle, draw, fill=black, label = 90.0:0]{};
+\node (n1) at +(67.5:\radius) [circle, draw, fill=white, label = 67.5:1]{};
+\node (n2) at +(45.0:\radius) [circle, draw, fill=white, label = 45.0:2]{};
+\node (n3) at +(22.5:\radius) [circle, draw, fill=black, label = 22.5:3]{};
+\node (n4) at +(0.0:\radius) [circle, draw, fill=white, label = 0.0:4]{};
+\node (n5) at +(337.5:\radius) [circle, draw, fill=white, label = 337.5:5]{};
+\node (n6) at +(315.0:\radius) [circle, draw, fill=black, label = 315.0:6]{};
+\node (n7) at +(292.5:\radius) [circle, draw, fill=white, label = 292.5:7]{};
+\node (n8) at +(270.0:\radius) [circle, draw, fill=black, label = 270.0:8]{};
+\node (n9) at +(247.5:\radius) [circle, draw, fill=white, label = 247.5:9]{};
+\node (n10) at +(225.0:\radius) [circle, draw, fill=white, label = 225.0:10]{};
+\node (n11) at +(202.5:\radius) [circle, draw, fill=black, label = 202.5:11]{};
+\node (n12) at +(180.0:\radius) [circle, draw, fill=white, label = 180.0:12]{};
+\node (n13) at +(157.5:\radius) [circle, draw, fill=white, label = 157.5:13]{};
+\node (n14) at +(135.0:\radius) [circle, draw, fill=black, label = 135.0:14]{};
+\node (n15) at +(112.5:\radius) [circle, draw, fill=white, label = 112.5:15]{};
+\draw[solid] (n0) -- (n3);
+\draw[solid] (n0) -- (n6);
+\draw[solid] (n0) -- (n8);
+\draw[solid] (n0) -- (n11);
+\draw[solid] (n0) -- (n14);
+\draw[solid] (n3) -- (n6);
+\draw[solid] (n3) -- (n8);
+\draw[solid] (n3) -- (n11);
+\draw[solid] (n3) -- (n14);
+\draw[solid] (n6) -- (n8);
+\draw[solid] (n6) -- (n11);
+\draw[solid] (n6) -- (n14);
+\draw[solid] (n8) -- (n11);
+\draw[solid] (n8) -- (n14);
+\draw[solid] (n11) -- (n14);
+\end{tikzpicture}

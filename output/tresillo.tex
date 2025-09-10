@@ -1,0 +1,16 @@
+\begin{tikzpicture}[scale={2}]
+\def \radius{1.0}
+\node (origin) at (0,0) {};
+\draw (origin) circle (\radius);
+\node (n0) at +(90.0:\radius) [circle, draw, fill=black, label = 90.0:0]{};
+\node (n1) at +(45.0:\radius) [circle, draw, fill=white, label = 45.0:1]{};
+\node (n2) at +(0.0:\radius) [circle, draw, fill=white, label = 0.0:2]{};
+\node (n3) at +(315.0:\radius) [circle, draw, fill=black, label = 315.0:3]{};
+\node (n4) at +(270.0:\radius) [circle, draw, fill=white, label = 270.0:4]{};
+\node (n5) at +(225.0:\radius) [circle, draw, fill=white, label = 225.0:5]{};
+\node (n6) at +(180.0:\radius) [circle, draw, fill=black, label = 180.0:6]{};
+\node (n7) at +(135.0:\radius) [circle, draw, fill=white, label = 135.0:7]{};
+\draw[solid] (n0) -- (n3);
+\draw[solid] (n3) -- (n6);
+\draw[solid] (n6) -- (n0);
+\end{tikzpicture}
